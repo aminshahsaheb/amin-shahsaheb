@@ -13,15 +13,9 @@
 <a href="https://www.instagram.com/Amin_shahsaheb">
   <img src="https://img.shields.io/badge/INSTAGRAM-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=instagram&logoColor=FFFFFF" alt="Instagram">
 </a>
-<a href="https://wa.me/989198818465">
-  <img src="https://img.shields.io/badge/WHATSAPP-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=whatsapp&logoColor=7EE2B0" alt="WhatsApp">
-</a>
 
 <p><strong>Business • Technology • Markets</strong></p>
-
-<p>
-<em>Building businesses, digital products, brands, and practical systems at the edge of technology and AI.</em>
-</p>
+<p><em>Building businesses, digital products, brands, and practical systems at the edge of technology and AI.</em></p>
 
 </div>
 
@@ -43,13 +37,13 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 
 ## ◈ Focus
 
-| Area           | Focus                                            |
-| -------------- | ------------------------------------------------ |
-| **Business**   | Development, strategy, marketing & sales         |
-| **Markets**    | Research, analysis & systematic thinking         |
-| **Technology** | Digital products, software & technical projects  |
-| **Brand**      | Visual identity, positioning & design            |
-| **AI**         | Human–AI systems, continuity & emerging products |
+| Area | Focus |
+| --- | --- |
+| **Business** | Development, strategy, marketing & sales |
+| **Markets** | Research, analysis & systematic thinking |
+| **Technology** | Digital products, software & technical projects |
+| **Brand** | Visual identity, positioning & design |
+| **AI** | Human–AI systems, continuity & emerging products |
 
 ## ◇ Selected Projects
 
@@ -57,30 +51,35 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 
 A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
 
-**Explore:**
-[Fanus](https://fanus1.netlify.app/) · [Presence](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
+**Explore:** [Fanus](https://fanus1.netlify.app/) · [Presence](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
-### **[BioKart](https://biokart.ir/amin-shahsaheb)**
+### **BioKart**
 
 Work across **marketing, sales, business development, and digital presence**.
 
-### **[Fānus App](https://github.com/aminshahsaheb/fanus-app)**
+**Explore:** [BioKart](https://biokart.ir/amin-shahsaheb)
+
+### **Fānus App**
 
 An experimental user-facing interface for continuity and Living Seal interaction.
 
-### **[Fānus Presence](https://github.com/aminshahsaheb/fanus-presence)**
+**Repository:** [fanus-app](https://github.com/aminshahsaheb/fanus-app)
+
+### **Fānus Presence**
 
 A web implementation exploring the presentation and interaction layer of the Fānus ecosystem.
+
+**Repository:** [fanus-presence](https://github.com/aminshahsaheb/fanus-presence)
 
 ---
 
 ## ⚙ What I Do
 
-* Business development & consulting
-* Financial market analysis
-* Digital product development
-* Branding & visual identity
-* Marketing & sales
+- Business development & consulting
+- Financial market analysis
+- Digital product development
+- Branding & visual identity
+- Marketing & sales
 
 ## ▣ Technology Background
 
@@ -118,9 +117,6 @@ I am currently focused on building and developing projects at the intersection o
   <img src="https://img.shields.io/badge/GitHub-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=github&logoColor=FFFFFF" alt="GitHub">
 </a>
 
-<br>
-<br>
+<br><br>
 
-<p align="center">
-  <sub>Best Never Rest</sub>
-</p>
+<p align="center"><sub>Best Never Rest</sub></p>
