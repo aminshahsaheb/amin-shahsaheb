@@ -1,3 +1,4 @@
+[README-FINAL-WITH-FIELD-MAP.md](https://github.com/user-attachments/files/32177146/README-FINAL-WITH-FIELD-MAP.md)
 <div align="center">
 
 <img src="assets/hero.svg" alt="Amin Shahsaheb — Business • Technology • Markets" width="100%">
@@ -25,77 +26,70 @@
 
 </div>
 
-◆ About
+---
 
-I work across business development, financial markets, technology, digital products, branding, and sales.
+## ◆ About
 
-My approach is practical: turn useful ideas into products, brands, systems, and real-world projects.
+I work across **business development, financial markets, technology, digital products, branding, and sales**.
 
-◈ Focus
+My approach is practical: turn useful ideas into **products, brands, systems, and real-world projects**.
 
-Area
+## ◈ The Working Field
 
-Focus
+<div align="center">
 
-Business
+<img src="assets/field-map.svg" alt="Business, Markets, Technology, AI and Brand working field" width="100%">
 
-Development, strategy, marketing & sales
+</div>
 
-Markets
+## ◈ Focus
 
-Research, analysis & systematic thinking
+| Area | Focus |
+| --- | --- |
+| **Business** | Development, strategy, marketing & sales |
+| **Markets** | Research, analysis & systematic thinking |
+| **Technology** | Digital products, software & technical projects |
+| **Brand** | Visual identity, positioning & design |
+| **AI** | Human–AI systems, continuity & emerging products |
 
-Technology
+## ◇ Selected Projects
 
-Digital products, software & technical projects
+### **[Fanus — Living Seal](https://fanus1.netlify.app/)**
 
-Brand
+A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
 
-Visual identity, positioning & design
+**Explore:**  
+[Fanus](https://fanus1.netlify.app/) · [Demo](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
-AI
+### **[BioKart](https://biokart.ir/amin-shahsaheb)**
 
-Human–AI systems, continuity & emerging products
+Work across **marketing, sales, business development, and digital presence**.
 
-◇ Selected Projects
-
-Fanus — Living Seal
-
-A project exploring the intersection of AI, memory, continuity, and human–AI relationships.
-
-Explore:
-Fanus · Demo · Repository
-
-BioKart
-
-Work across marketing, sales, business development, and digital presence.
-
-Fānus App
+### **[Fānus App](https://github.com/aminshahsaheb/fanus-app)**
 
 An experimental user-facing interface for continuity and Living Seal interaction.
 
-Fānus Presence
+### **[Fānus Presence](https://github.com/aminshahsaheb/fanus-presence)**
 
 A web implementation exploring the presentation and interaction layer of the Fānus ecosystem.
 
-⚙ What I Do
+---
 
-Business development & consulting
+## ⚙ What I Do
 
-Financial market analysis
+- Business development & consulting
+- Financial market analysis
+- Digital product development
+- Branding & visual identity
+- Marketing & sales
 
-Digital product development
+## ▣ Technology Background
 
-Branding & visual identity
+Experience across **software, hardware, mobile technology, digital products, and online projects**.
 
-Marketing & sales
+## ◎ Current Direction
 
-▣ Technology Background
-
-Experience across software, hardware, mobile technology, digital products, and online projects.
-
-◎ Current Direction
-
+```text
 BUSINESS
    ×
 TECHNOLOGY
@@ -103,10 +97,11 @@ TECHNOLOGY
 AI
    ×
 MARKETS
+```
 
-I am currently focused on building and developing projects at the intersection of business, technology, AI, and emerging digital systems.
+I am currently focused on building and developing projects at the intersection of **business, technology, AI, and emerging digital systems**.
 
-⟡ Connect
+## ⟡ Connect
 
 <a href="https://biokart.ir/amin-shahsaheb">
   <img src="https://img.shields.io/badge/Business_Card-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F" alt="Business Card">
