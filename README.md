@@ -5,15 +5,20 @@
 <br>
 
 <p>
-<a href="https://biokart.ir/amin-shahsaheb">Business Card</a> ·
-<a href="https://github.com/aminshahsaheb">GitHub</a> ·
-<a href="https://www.instagram.com/Amin_shahsaheb">Instagram</a> ·
-<a href="https://wa.me/989198818465">WhatsApp</a>
+  <a href="https://biokart.ir/amin-shahsaheb">Business Card</a>
+  ·
+  <a href="https://github.com/aminshahsaheb">GitHub</a>
+  ·
+  <a href="https://www.instagram.com/Amin_shahsaheb">Instagram</a>
+  ·
+  <a href="https://wa.me/989198818465">WhatsApp</a>
 </p>
 
-<p><strong>Business • Technology • Markets</strong></p>
+<h3>Business • Technology • Markets</h3>
 
-<p><em>Building at the intersection of business, technology, markets, and AI.</em></p>
+<p>
+  <em>Building at the intersection of business, technology, markets, and AI.</em>
+</p>
 
 </div>
 
@@ -41,8 +46,7 @@ My approach is practical: turning useful ideas into **products, brands, systems,
 
 A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
 
-**Explore:**  
-[Live](https://fanus1.netlify.app/) · [Demo](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
+**Explore:** [Live](https://fanus1.netlify.app/) · [Demo](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
 ## ◇ Selected Work
 
@@ -67,6 +71,8 @@ BUILDING      Fanus
 EXPLORING     AI × continuity × memory
 RESEARCHING   markets & systematic systems
 DEVELOPING    digital products & brands
+```
+
 ## ▣ How I Think
 
 > Build → Test → Observe → Refine
