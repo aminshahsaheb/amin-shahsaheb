@@ -49,11 +49,20 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 
 A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
 
-**Explore:** [Fanus](https://fanus1.netlify.app/) · [Demo](https://fanus-presence.vercel.app/)
+**Explore:**  
+[Fanus](https://fanus1.netlify.app/) · [Demo](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
 ### **[BioKart](https://biokart.ir/amin-shahsaheb)**
 
 Work across **marketing, sales, business development, and digital presence**.
+
+### **[Fānus App](https://github.com/aminshahsaheb/fanus-app)**
+
+An experimental user-facing interface for continuity and Living Seal interaction.
+
+### **[Fānus Presence](https://github.com/aminshahsaheb/fanus-presence)**
+
+A web implementation exploring the presentation and interaction layer of the Fānus ecosystem.
 
 ---
 
@@ -79,3 +88,31 @@ TECHNOLOGY
 AI
    ×
 MARKETS
+```
+
+I am currently focused on building and developing projects at the intersection of **business, technology, AI, and emerging digital systems**.
+
+## ⟡ Connect
+
+<a href="https://biokart.ir/amin-shahsaheb">
+  <img src="https://img.shields.io/badge/Business_Card-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F" alt="Business Card">
+</a>
+<a href="https://www.instagram.com/Amin_shahsaheb">
+  <img src="https://img.shields.io/badge/Instagram-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=instagram&logoColor=FFFFFF" alt="Instagram">
+</a>
+<a href="https://wa.me/989198818465">
+  <img src="https://img.shields.io/badge/WhatsApp-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=whatsapp&logoColor=7EE2B0" alt="WhatsApp">
+</a>
+<a href="https://t.me/Kingsaheb">
+  <img src="https://img.shields.io/badge/Telegram-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=telegram&logoColor=7EE2B0" alt="Telegram">
+</a>
+<a href="https://github.com/aminshahsaheb">
+  <img src="https://img.shields.io/badge/GitHub-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=github&logoColor=FFFFFF" alt="GitHub">
+</a>
+
+<br>
+<br>
+
+<p align="center">
+  <sub>Best Never Rest</sub>
+</p>
