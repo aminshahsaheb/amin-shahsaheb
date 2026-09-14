@@ -53,12 +53,12 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 
 ## ◇ Selected Projects
 
-### **[Fanus — Living Seal](https://fanus1.netlify.app/)**
+### **Fanus — Living Seal**
 
 A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
 
 **Explore:**
-[Fanus](https://fanus1.netlify.app/) · [Demo](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
+[Fanus](https://fanus1.netlify.app/) · [Presence](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
 ### **[BioKart](https://biokart.ir/amin-shahsaheb)**
 
