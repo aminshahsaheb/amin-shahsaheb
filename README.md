@@ -1,4 +1,3 @@
-[README-FINAL-WITH-FIELD-MAP.md](https://github.com/user-attachments/files/32177146/README-FINAL-WITH-FIELD-MAP.md)
 <div align="center">
 
 <img src="assets/hero.svg" alt="Amin Shahsaheb — Business • Technology • Markets" width="100%">
@@ -44,13 +43,13 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 
 ## ◈ Focus
 
-| Area | Focus |
-| --- | --- |
-| **Business** | Development, strategy, marketing & sales |
-| **Markets** | Research, analysis & systematic thinking |
-| **Technology** | Digital products, software & technical projects |
-| **Brand** | Visual identity, positioning & design |
-| **AI** | Human–AI systems, continuity & emerging products |
+| Area           | Focus                                            |
+| -------------- | ------------------------------------------------ |
+| **Business**   | Development, strategy, marketing & sales         |
+| **Markets**    | Research, analysis & systematic thinking         |
+| **Technology** | Digital products, software & technical projects  |
+| **Brand**      | Visual identity, positioning & design            |
+| **AI**         | Human–AI systems, continuity & emerging products |
 
 ## ◇ Selected Projects
 
@@ -58,7 +57,7 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 
 A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
 
-**Explore:**  
+**Explore:**
 [Fanus](https://fanus1.netlify.app/) · [Demo](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
 ### **[BioKart](https://biokart.ir/amin-shahsaheb)**
@@ -77,11 +76,11 @@ A web implementation exploring the presentation and interaction layer of the Fā
 
 ## ⚙ What I Do
 
-- Business development & consulting
-- Financial market analysis
-- Digital product development
-- Branding & visual identity
-- Marketing & sales
+* Business development & consulting
+* Financial market analysis
+* Digital product development
+* Branding & visual identity
+* Marketing & sales
 
 ## ▣ Technology Background
 
