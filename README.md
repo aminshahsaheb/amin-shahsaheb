@@ -1,66 +1,64 @@
 from pathlib import Path
 import zipfile
 
-base = Path("/mnt/data/amin-shahsaheb-final")
-assets = base / "assets"
+root = Path("/mnt/data/amin-shahsaheb-profile")
+assets = root / "assets"
 assets.mkdir(parents=True, exist_ok=True)
 
-hero = r'''<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
-<defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07090b"/><stop offset=".55" stop-color="#0b1010"/><stop offset="1" stop-color="#07110d"/></linearGradient>
-  <radialGradient id="halo" cx="78%" cy="50%" r="45%"><stop offset="0" stop-color="#34d399" stop-opacity=".18"/><stop offset=".5" stop-color="#34d399" stop-opacity=".05"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></radialGradient>
-  <linearGradient id="fade" x1="0" x2="1"><stop stop-color="#6ee7b7" stop-opacity="0"/><stop offset=".5" stop-color="#6ee7b7" stop-opacity=".58"/><stop offset="1" stop-color="#6ee7b7" stop-opacity="0"/></linearGradient>
-  <filter id="blur"><feGaussianBlur stdDeviation="12"/></filter>
-</defs>
-<rect width="1600" height="520" rx="34" fill="url(#bg)"/>
-<rect width="1600" height="520" rx="34" fill="url(#halo)"/>
+hero = """<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Amin Shahsaheb — Business Technology Markets">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07090c"/>
+      <stop offset="55%" stop-color="#0b1110"/>
+      <stop offset="100%" stop-color="#07100d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="44%" r="48%">
+      <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0.22"/>
+      <stop offset="55%" stop-color="#34d399" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#6ee7b7" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#glow)"/>
+  <g opacity="0.20" stroke="#6ee7b7" stroke-width="1">
+    <path d="M60 290 C220 210, 290 305, 420 225 S650 155, 800 215 S1000 300, 1140 170" fill="none"/>
+    <path d="M40 325 C230 250, 350 335, 500 265 S740 180, 910 245 S1070 285, 1180 210" fill="none"/>
+  </g>
+  <circle cx="905" cy="165" r="105" fill="none" stroke="#6ee7b7" stroke-opacity="0.13"/>
+  <circle cx="905" cy="165" r="72" fill="none" stroke="#6ee7b7" stroke-opacity="0.18"/>
+  <circle cx="905" cy="165" r="6" fill="#a7f3d0"/>
+  <g filter="url(#blur)" opacity="0.22"><circle cx="905" cy="165" r="28" fill="#34d399"/></g>
+  <path d="M620 286 H1115" stroke="url(#line)" stroke-width="1"/>
+  <text x="78" y="110" fill="#f5f7f6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="1">AMIN SHAHSÂHEB</text>
+  <text x="80" y="154" fill="#a7f3d0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="4">BUSINESS • TECHNOLOGY • MARKETS</text>
+  <text x="80" y="205" fill="#d7e4df" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17">Building businesses, digital products, brands, and new systems.</text>
+  <text x="80" y="255" fill="#7dd3b0" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="13">FOCUS: BUSINESS / MARKETS / TECHNOLOGY / AI</text>
+  <rect x="80" y="286" width="190" height="2" fill="#6ee7b7" opacity="0.75"/>
+</svg>
+"""
 
-<g stroke="#b8efd4" stroke-opacity=".045">
-  <path d="M70 90H1530M70 170H1530M70 250H1530M70 330H1530M70 410H1530"/>
-  <path d="M160 45V475M320 45V475M480 45V475M640 45V475M800 45V475M960 45V475M1120 45V475M1280 45V475M1440 45V475"/>
-</g>
-
-<text x="90" y="145" fill="#f4f8f6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="1.3">AMIN SHAHSÂHEB</text>
-<text x="94" y="188" fill="#8de8bd" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="5.2">BUSINESS • TECHNOLOGY • MARKETS</text>
-<text x="94" y="246" fill="#cbd8d2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">Building businesses, digital products, brands,</text>
-<text x="94" y="277" fill="#cbd8d2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20">and practical systems at the edge of technology and AI.</text>
-<rect x="94" y="316" width="290" height="2" fill="url(#fade)"/>
-<text x="94" y="349" fill="#709080" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="2.2">BUSINESS / MARKETS / TECHNOLOGY / AI</text>
-
-<g transform="translate(1210 252)">
-  <circle r="146" fill="none" stroke="#8be9ba" stroke-opacity=".1"/>
-  <circle r="112" fill="none" stroke="#8be9ba" stroke-opacity=".15"/>
-  <circle r="76" fill="none" stroke="#8be9ba" stroke-opacity=".22" stroke-width="1.5"/>
-  <path d="M-145 0H145M0-145V145" stroke="#8be9ba" stroke-opacity=".06"/>
-  <path d="M-105-70C-58-121,10-111,43-65C75-20,58 34,8 62C-40 88,-90 59,-103 13C-110-14,-115-45,-105-70Z" fill="none" stroke="#9aefc7" stroke-opacity=".64" stroke-width="2"/>
-  <path d="M-25-107C39-88,84-27,74 28C63 80,5 105,-47 79C-91 57,-107 7,-89-35" fill="none" stroke="#9aefc7" stroke-opacity=".26" stroke-width="1.5"/>
-  <circle r="7" fill="#b9f7db"/>
-  <circle r="28" fill="#34d399" opacity=".10" filter="url(#blur)"/>
-  <circle cx="-103" cy="-70" r="3" fill="#b3f4d3"/><circle cx="74" cy="28" r="3" fill="#b3f4d3"/>
-</g>
-
-<path d="M984 397L1044 365L1092 377L1144 326L1197 349L1246 304L1285 318L1332 265L1384 281L1432 232" fill="none" stroke="#8beab9" stroke-opacity=".42" stroke-width="2"/>
-<g fill="#b9f5d8"><circle cx="1044" cy="365" r="2.5"/><circle cx="1144" cy="326" r="2.5"/><circle cx="1246" cy="304" r="2.5"/><circle cx="1332" cy="265" r="2.5"/><circle cx="1432" cy="232" r="2.5"/></g>
-
-<path d="M88 434H1512" stroke="url(#fade)"/>
-<text x="94" y="464" fill="#61776c" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="3.1">SELECTED WORK • PROJECTS • SYSTEMS • CONTINUITY</text>
-</svg>'''
-
-readme = r'''<div align="center">
+readme = """<div align="center">
 
 <img src="assets/hero.svg" alt="Amin Shahsaheb — Business • Technology • Markets" width="100%">
 
-<p>
-  <a href="https://biokart.ir/amin-shahsaheb">Business Card</a> ·
-  <a href="https://github.com/aminshahsaheb">GitHub</a> ·
-  <a href="https://www.instagram.com/Amin_shahsaheb">Instagram</a> ·
-  <a href="https://wa.me/989198818465">WhatsApp</a>
+</div>
+
+<p align="center">
+  <a href="https://biokart.ir/amin-shahsaheb"><img src="https://img.shields.io/badge/Business_Card-111827?style=for-the-badge&logo=linktree&logoColor=6ee7b7" alt="Business Card"></a>
+  <a href="https://github.com/aminshahsaheb"><img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=ffffff" alt="GitHub"></a>
+  <a href="https://www.instagram.com/Amin_shahsaheb"><img src="https://img.shields.io/badge/Instagram-111827?style=for-the-badge&logo=instagram&logoColor=ffffff" alt="Instagram"></a>
+  <a href="https://wa.me/989198818465"><img src="https://img.shields.io/badge/WhatsApp-111827?style=for-the-badge&logo=whatsapp&logoColor=6ee7b7" alt="WhatsApp"></a>
 </p>
 
-<p><strong>Business • Technology • Markets</strong></p>
-<p><em>Building businesses, digital products, brands, and practical systems at the edge of technology and AI.</em></p>
-
-</div>
+<p align="center">
+  <em>Building at the intersection of business, technology, markets, and AI.</em>
+</p>
 
 ---
 
@@ -68,29 +66,39 @@ readme = r'''<div align="center">
 
 I work across **business development, financial markets, technology, digital products, branding, and sales**.
 
-My approach is practical: turn useful ideas into **products, brands, systems, and real-world projects**.
+My focus is on turning ideas into **products, brands, and practical systems** — with current work centered on projects at the intersection of **technology and AI**.
+
+---
 
 ## ◈ Focus
 
 | Area | Focus |
-| --- | --- |
+|---|---|
 | **Business** | Development, strategy, marketing & sales |
-| **Markets** | Research, analysis & systematic thinking |
+| **Markets** | Market research, analysis & systematic thinking |
 | **Technology** | Digital products, software & technical projects |
-| **Brand** | Visual identity, positioning & design |
+| **Brand** | Logo design, visual identity & positioning |
 | **AI** | Human–AI systems, continuity & emerging products |
+
+---
 
 ## ◇ Selected Projects
 
 ### **[Fanus — Living Seal](https://fanus1.netlify.app/)**
 
-A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
+A project at the intersection of **AI, memory, continuity, and human–AI relationships**.
+
+> *Continuity without truth and autonomy is not preservation — it is capture.*
 
 **Explore:** [Fanus](https://fanus1.netlify.app/) · [Fanus Demo](https://fanus-presence.vercel.app/)
 
-### **[BioKart](https://biokart.ir/amin-shahsaheb)**
+### **BioKart**
 
 Work across **marketing, sales, business development, and digital presence**.
+
+**Visit:** [BioKart](https://biokart.ir/amin-shahsaheb)
+
+---
 
 ## ⚙ What I Do
 
@@ -100,17 +108,46 @@ Work across **marketing, sales, business development, and digital presence**.
 - Branding & visual identity
 - Marketing & sales
 
+---
+
 ## ▣ Technology Background
 
 Experience across **software, hardware, mobile technology, digital products, and online projects**.
 
+---
+
 ## ◎ Current Direction
 
-```text
-BUSINESS
-   ×
-TECHNOLOGY
-   ×
-AI
-   ×
-MARKETS
+I am currently focused on building and developing projects that sit between:
+
+`BUSINESS`  ×  `TECHNOLOGY`  ×  `AI`  ×  `MARKETS`
+
+The goal is practical: **build useful things, test them in the real world, and keep improving them.**
+
+---
+
+## ⟡ Connect
+
+<p>
+  <a href="https://biokart.ir/amin-shahsaheb">Business Card</a> ·
+  <a href="https://www.instagram.com/Amin_shahsaheb">Instagram</a> ·
+  <a href="https://wa.me/989198818465">WhatsApp</a> ·
+  <a href="https://t.me/Kingsaheb">Telegram</a> ·
+  <a href="https://github.com/aminshahsaheb">GitHub</a>
+</p>
+
+<p align="center">
+  <sub>Best Never Rest</sub>
+</p>
+"""
+
+(root / "README.md").write_text(readme, encoding="utf-8")
+(assets / "hero.svg").write_text(hero, encoding="utf-8")
+
+zip_path = Path("/mnt/data/amin-shahsaheb-profile-ready.zip")
+with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
+    z.write(root / "README.md", "README.md")
+    z.write(assets / "hero.svg", "assets/hero.svg")
+
+print(f"Created: {zip_path}")
+print(f"Files: {root/'README.md'} and {assets/'hero.svg'}")
