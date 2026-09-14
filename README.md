@@ -45,13 +45,15 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 | **Brand** | Visual identity, positioning & design |
 | **AI** | Human–AI systems, continuity & emerging products |
 
-## ◇ Selected Projects
+## ◇ Selected Work
 
-### **Fanus — Living Seal**
+> A compact map of the projects and systems I currently choose to present here.
+
+### **Fānus — Living Seal**
 
 A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
 
-**Explore:** [Fanus](https://fanus1.netlify.app/) · [Presence](https://fanus-presence.vercel.app/) · [Repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
+**Explore:** [Fānus](https://fanus1.netlify.app/) · [Presence](https://fanus-presence.vercel.app/) · [Living Seal repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
 ### **BioKart**
 
@@ -98,6 +100,10 @@ MARKETS
 ```
 
 I am currently focused on building and developing projects at the intersection of **business, technology, AI, and emerging digital systems**.
+
+## ⟡ Find Me
+
+For project work, professional context, and the wider Fānus ecosystem, use the links below.
 
 ## ⟡ Connect
 
