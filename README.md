@@ -2,20 +2,12 @@
 
 <img src="assets/hero.svg" alt="Amin Shahsaheb — Business • Technology • Markets" width="100%">
 
-<br>
-
-<a href="https://biokart.ir/amin-shahsaheb">
-  <img src="https://img.shields.io/badge/BUSINESS_CARD-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F" alt="Business Card">
-</a>
-<a href="https://github.com/aminshahsaheb">
-  <img src="https://img.shields.io/badge/GITHUB-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=github&logoColor=FFFFFF" alt="GitHub">
-</a>
-<a href="https://www.instagram.com/Amin_shahsaheb">
-  <img src="https://img.shields.io/badge/INSTAGRAM-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=instagram&logoColor=FFFFFF" alt="Instagram">
-</a>
-
 <p><strong>Business • Technology • Markets</strong></p>
 <p><em>Building businesses, digital products, brands, and practical systems at the edge of technology and AI.</em></p>
+
+<a href="https://biokart.ir/amin-shahsaheb">Business Card</a> ·
+<a href="https://github.com/aminshahsaheb">GitHub</a> ·
+<a href="https://www.instagram.com/Amin_shahsaheb">Instagram</a>
 
 </div>
 
@@ -27,14 +19,6 @@ I work across **business development, financial markets, technology, digital pro
 
 My approach is practical: turn useful ideas into **products, brands, systems, and real-world projects**.
 
-## ◈ The Working Field
-
-<div align="center">
-
-<img src="assets/field-map.svg" alt="Business, Markets, Technology, AI and Brand working field" width="100%">
-
-</div>
-
 ## ◈ Focus
 
 | Area | Focus |
@@ -43,37 +27,77 @@ My approach is practical: turn useful ideas into **products, brands, systems, an
 | **Markets** | Research, analysis & systematic thinking |
 | **Technology** | Digital products, software & technical projects |
 | **Brand** | Visual identity, positioning & design |
-| **AI** | Human–AI systems, continuity & emerging products |
+| **AI** | Human–AI systems, continuity, verification & emerging products |
 
 ## ◇ Selected Work
 
-> A compact map of the projects and systems I currently choose to present here.
+### Fānus — Living Seal
 
-### **Fānus — Living Seal**
+A research and engineering project exploring **AI interaction reliability, memory, continuity, identity, governance, and human–AI systems**.
 
-A project exploring the intersection of **AI, memory, continuity, and human–AI relationships**.
+Fānus has a **canonical research/engineering core** and separate experience surfaces. The deeper research system and externally presented product capabilities are intentionally kept distinct.
 
 **Explore:** [Fānus](https://fanus1.netlify.app/) · [Presence](https://fanus-presence.vercel.app/) · [Living Seal repository](https://github.com/aminshahsaheb/Fanus-Living-Seal)
 
-### **BioKart**
+### Fānus App
+
+The user-facing conversational application for interacting with Fānus and its Living Seal continuity mechanism.
+
+**Repository:** [fanus-app](https://github.com/aminshahsaheb/fanus-app)
+
+### Fānus Presence
+
+The public presence, verification, runtime-observation, and experience layer around the Fānus system.
+
+**Repository:** [fanus-presence](https://github.com/aminshahsaheb/fanus-presence)
+
+### BioKart
 
 Work across **marketing, sales, business development, and digital presence**.
 
 **Explore:** [BioKart](https://biokart.ir/amin-shahsaheb)
 
-### **Fānus App**
-
-An experimental user-facing interface for continuity and Living Seal interaction.
-
-**Repository:** [fanus-app](https://github.com/aminshahsaheb/fanus-app)
-
-### **Fānus Presence**
-
-A web implementation exploring the presentation and interaction layer of the Fānus ecosystem.
-
-**Repository:** [fanus-presence](https://github.com/aminshahsaheb/fanus-presence)
-
 ---
+
+## ◈ FĀNUS ARCHITECTURE
+
+The Fānus repositories have distinct roles:
+
+```text
+                         FĀNUS
+                           │
+              ┌────────────┴────────────┐
+              │                         │
+       CANONICAL CORE           EXPERIENCE SURFACES
+              │                         │
+   Fanus-Living-Seal          ┌─────────┴─────────┐
+              │                │                   │
+              │            fanus-app        fanus-presence
+              │                │                   │
+              └────────────────┴───────────────────┘
+```
+
+**Fanus-Living-Seal** — canonical research and engineering foundation.
+
+**fanus-app** — direct user-facing conversation and Living Seal interaction.
+
+**fanus-presence** — public presence, verification, runtime observation, and engineering-facing presentation.
+
+The surfaces may evolve independently, but they should not silently redefine the canonical core.
+
+## ◇ Current Direction
+
+```text
+BUSINESS
+   ×
+TECHNOLOGY
+   ×
+AI
+   ×
+MARKETS
+```
+
+For Fānus specifically, the direction is to keep the underlying research ambitious while making externally presented capabilities **clear, measurable, testable, and understandable**.
 
 ## ⚙ What I Do
 
@@ -87,42 +111,12 @@ A web implementation exploring the presentation and interaction layer of the Fā
 
 Experience across **software, hardware, mobile technology, digital products, and online projects**.
 
-## ◎ Current Direction
-
-```text
-BUSINESS
-   ×
-TECHNOLOGY
-   ×
-AI
-   ×
-MARKETS
-```
-
-I am currently focused on building and developing projects at the intersection of **business, technology, AI, and emerging digital systems**.
-
-## ⟡ Find Me
-
-For project work, professional context, and the wider Fānus ecosystem, use the links below.
-
 ## ⟡ Connect
 
-<a href="https://biokart.ir/amin-shahsaheb">
-  <img src="https://img.shields.io/badge/Business_Card-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F" alt="Business Card">
-</a>
-<a href="https://www.instagram.com/Amin_shahsaheb">
-  <img src="https://img.shields.io/badge/Instagram-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=instagram&logoColor=FFFFFF" alt="Instagram">
-</a>
-<a href="https://wa.me/989198818465">
-  <img src="https://img.shields.io/badge/WhatsApp-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=whatsapp&logoColor=7EE2B0" alt="WhatsApp">
-</a>
-<a href="https://t.me/Kingsaheb">
-  <img src="https://img.shields.io/badge/Telegram-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=telegram&logoColor=7EE2B0" alt="Telegram">
-</a>
-<a href="https://github.com/aminshahsaheb">
-  <img src="https://img.shields.io/badge/GitHub-0B1110?style=for-the-badge&labelColor=07090B&color=173C2F&logo=github&logoColor=FFFFFF" alt="GitHub">
-</a>
-
-<br><br>
+<a href="https://biokart.ir/amin-shahsaheb">Business Card</a> ·
+<a href="https://www.instagram.com/Amin_shahsaheb">Instagram</a> ·
+<a href="https://wa.me/989198818465">WhatsApp</a> ·
+<a href="https://t.me/Kingsaheb">Telegram</a> ·
+<a href="https://github.com/aminshahsaheb">GitHub</a>
 
 <p align="center"><sub>Best Never Rest</sub></p>
